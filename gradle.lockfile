@@ -70,3 +70,5 @@ org.springframework:spring-webmvc:6.1.6=compileClasspath,productionRuntimeClassp
 org.xmlunit:xmlunit-core:2.9.1=testCompileClasspath,testRuntimeClasspath
 org.yaml:snakeyaml:2.2=compileClasspath,productionRuntimeClasspath,runtimeClasspath,testCompileClasspath,testRuntimeClasspath
 empty=developmentOnly,testAndDevelopmentOnly,testAnnotationProcessor
+
+Tomcat==11.0.15, 10.1.50, 9.0.113
