@@ -1,0 +1,3 @@
+# Manual investigation required.
+echo "Manual investigation required to upgrade Tomcat version to 11.0.8, 10.1.42, or 9.0.106."
+exit 0
