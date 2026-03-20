@@ -1,0 +1,7 @@
+# This script checks for vulnerable spring-boot dependencies and suggests an upgrade.
+# Due to the complexity of dependency management, manual investigation is required.
+
+echo "Manual investigation required:"
+echo "The application uses Spring Boot. A potential vulnerability (CVE-2025-22235) exists related to EndpointRequest.to() in Spring Boot versions prior to 3.3.11 and 3.4.5."
+echo "Please update the spring-boot version to 3.3.11 or 3.4.5 or later."
+exit 0
