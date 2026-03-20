@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "This finding requires a manual investigation to upgrade the Tomcat version."
+echo "Please upgrade to version 11.0.15 or later, 10.1.50 or later or 9.0.113 or later."
+exit 0
