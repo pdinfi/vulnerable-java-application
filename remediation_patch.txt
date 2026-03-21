@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Manual investigation required: CVE-2024-38820 affects Spring Framework versions. Please upgrade to version 6.2.7, 6.1.20, 6.0.28, or 5.3.43 or later."
+exit 0
