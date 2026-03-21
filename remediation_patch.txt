@@ -1,0 +1,3 @@
+# Manual intervention is required to upgrade the spring-webmvc dependency.
+echo "Manual investigation required: Upgrade org.springframework:spring-webmvc to version 6.1.14 or later to address the path traversal vulnerability."
+exit 0
