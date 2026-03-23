@@ -1,8 +1,5 @@
-#!/bin/bash
-
-echo "This finding indicates a potential path traversal vulnerability in Spring Framework MVC."
-echo "Due to the complexity of the issue and the variety of Servlet containers and configurations, automated remediation is not possible."
-echo "Manual investigation is required to determine if your application is vulnerable."
-echo "Specifically, check if your application is deployed as a WAR or with an embedded Servlet container, if the Servlet container rejects suspicious sequences, and if the application serves static resources with Spring resource handling."
-echo "Refer to the vulnerability description for more details and remediation steps."
+# Manual investigation required.
+echo "This finding requires manual investigation to determine the appropriate remediation steps."
+echo "The application may be vulnerable to a path traversal vulnerability due to the servlet container configuration."
+echo "Please ensure your servlet container is properly configured to reject suspicious sequences and upgrade Spring Framework to version 6.2.10 or later."
 exit 0
