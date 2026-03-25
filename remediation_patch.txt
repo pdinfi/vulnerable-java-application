@@ -1,5 +1,4 @@
 # Manual investigation required.
 echo "This finding requires manual investigation to determine the appropriate remediation steps."
-echo "The application may be vulnerable to a path traversal vulnerability due to the servlet container configuration."
-echo "Please ensure your servlet container is properly configured to reject suspicious sequences and upgrade Spring Framework to version 6.2.10 or later."
+echo "Specifically, review the Servlet container configuration and static resource handling."
 exit 0
