@@ -1,0 +1,4 @@
+# Manual investigation required.
+echo "This finding requires manual investigation to determine the appropriate remediation steps."
+echo "Specifically, review the Servlet container configuration and static resource handling."
+exit 0
